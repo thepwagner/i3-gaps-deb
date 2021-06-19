@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:bullseye
 
 ARG http_proxy=http://192.168.86.40:3128
 COPY sources.list /etc/apt/sources.list
